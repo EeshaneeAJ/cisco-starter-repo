@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner />
+      <Exhibit title="Network Latency Metrics">
+        <div className="card">Metric 1</div>
+        <div className="card">Metric 2</div>
+        <div className="card">Metric 3</div>
+      </Exhibit>
+      {/* Add more exhibits/components here */}
     </div>
   );
 }
