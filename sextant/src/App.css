@@ -45,3 +45,12 @@
   width: 200px;
   text-align: center;
 }
+.ip-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
